@@ -1,0 +1,36 @@
+{
+	"name": "@seregpie/vector-math",
+	"version": "1.0.0",
+	"description": "A collection of mathematical functions for working with vectors.",
+	"keywords": [
+		"angle",
+		"centroid",
+		"clone",
+		"distance",
+		"divide",
+		"dot",
+		"length",
+		"magnitude",
+		"multiply",
+		"norm",
+		"normalize",
+		"relength",
+		"scalar",
+		"vector"
+	],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/VectorMath",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "node test/index"
+	},
+	"devDependencies": {
+		"@rollup/plugin-buble": "^0.21.1",
+		"rollup": "^1.31.0",
+		"rollup-plugin-terser": "^5.2.0"
+	}
+}
