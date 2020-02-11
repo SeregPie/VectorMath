@@ -169,8 +169,8 @@ Multiplies the vector by the scalar.
 Returns a new array as the calculated result.
 
 ```javascript
-let vector = VectorMath.multiplyScalar([3, 1], 2);
-// => [6, 2]
+let vector = VectorMath.multiplyScalar([3, -1], 2);
+// => [6, -2]
 ```
 
 ---
