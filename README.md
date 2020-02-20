@@ -58,6 +58,19 @@ Returns a new array as the calculated result.
 
 ---
 
+`.mul(vector, otherVector)`
+
+Multiplies the first vector by the second vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.mulScalar(vector, scalar)`
 
 Multiplies the vector by the scalar.

@@ -7,6 +7,7 @@ module.exports = [
 	require('./VectorMath.dot'),
 	require('./VectorMath.length'),
 	require('./VectorMath.mean'),
+	require('./VectorMath.mul'),
 	require('./VectorMath.mulScalar'),
 	require('./VectorMath.normalize'),
 	require('./VectorMath.relength'),
