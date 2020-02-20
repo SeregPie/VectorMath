@@ -13,4 +13,5 @@ module.exports = [
 	require('./VectorMath.normalize'),
 	require('./VectorMath.relength'),
 	require('./VectorMath.sub'),
+	require('./VectorMath.subScalar'),
 ];

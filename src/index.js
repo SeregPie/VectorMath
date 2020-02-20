@@ -12,6 +12,7 @@ import mulScalar from './mulScalar';
 import normalize from './normalize';
 import relength from './relength';
 import sub from './sub';
+import subScalar from './subScalar';
 
 export default {
 	add,
@@ -28,4 +29,5 @@ export default {
 	normalize,
 	relength,
 	sub,
+	subScalar,
 };

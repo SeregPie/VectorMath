@@ -58,6 +58,19 @@ Returns a new array as the calculated result.
 
 ---
 
+`.subScalar(vector, scalar)`
+
+Subtracts the scalar from the vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `otherVector` | A number as the scalar. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.mul(vector, otherVector)`
 
 Multiplies the first vector by the second vector.
