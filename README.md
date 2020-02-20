@@ -173,13 +173,13 @@ Returns a new array as the calculated result.
 
 ---
 
-`.mean(vectors)`
+`.mean(...vectors)`
 
 Calculates the mean of the multiple vectors.
 
 | argument | description |
 | ---: | :--- |
-| `vectors` | An iterable of arrays as vectors. |
+| `vectors` | Multiple arrays as vectors. |
 
 Returns a new array as the calculated result.
 
