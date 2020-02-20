@@ -1,8 +1,10 @@
 {
 	"name": "@seregpie/vector-math",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A collection of mathematical functions for working with vectors.",
 	"keywords": [
+		"add",
+		"addition",
 		"angle",
 		"centroid",
 		"clone",
@@ -19,6 +21,9 @@
 		"normalize",
 		"relength",
 		"scalar",
+		"sub",
+		"subtraction",
+		"sum",
 		"vector"
 	],
 	"license": "MIT",
