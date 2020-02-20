@@ -1,4 +1,5 @@
 import add from './add';
+import addScalar from './addScalar';
 import angle from './angle';
 import clone from './clone';
 import distance from './distance';
@@ -16,6 +17,7 @@ import subScalar from './subScalar';
 
 export default {
 	add,
+	addScalar,
 	angle,
 	clone,
 	distance,

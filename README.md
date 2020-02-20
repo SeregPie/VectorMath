@@ -45,6 +45,19 @@ Returns a new array as the calculated result.
 
 ---
 
+`.addScalar(vector, scalar)`
+
+Adds the scalar to the vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `otherVector` | A number as the scalar. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.sub(vector, otherVector)`
 
 Subtracts the second vector from the first vector.
