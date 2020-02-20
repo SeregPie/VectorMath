@@ -2,6 +2,7 @@ import add from './add';
 import angle from './angle';
 import clone from './clone';
 import distance from './distance';
+import div from './div';
 import divScalar from './divScalar';
 import dot from './dot';
 import length from './length';
@@ -17,6 +18,7 @@ export default {
 	angle,
 	clone,
 	distance,
+	div,
 	divScalar,
 	dot,
 	length,

@@ -84,6 +84,19 @@ Returns a new array as the calculated result.
 
 ---
 
+`.div(vector, otherVector)`
+
+Divides the first vector by the second vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.divScalar(vector, scalar)`
 
 Divides the vector by the scalar.

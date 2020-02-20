@@ -3,6 +3,7 @@ module.exports = [
 	require('./VectorMath.angle'),
 	require('./VectorMath.clone'),
 	require('./VectorMath.distance'),
+	require('./VectorMath.div'),
 	require('./VectorMath.divScalar'),
 	require('./VectorMath.dot'),
 	require('./VectorMath.length'),
