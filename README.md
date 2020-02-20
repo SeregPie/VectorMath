@@ -32,6 +32,24 @@ The module is globally available as `VectorMath`.
 
 ## members
 
+`.add(vector, otherVector)`
+
+Adds the second vector to the first vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a new array as the calculated result.
+
+```javascript
+let vector = VectorMath.add([1, 3, -1], [-2, 1, 6]);
+// => [-1, 4, 5]
+```
+
+---
+
 `.mulScalar(vector, scalar)`
 
 Multiplies the vector by the scalar.

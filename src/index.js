@@ -1,3 +1,4 @@
+import add from './add';
 import angle from './angle';
 import clone from './clone';
 import distance from './distance';
@@ -10,6 +11,7 @@ import normalize from './normalize';
 import relength from './relength';
 
 export default {
+	add,
 	angle,
 	clone,
 	distance,

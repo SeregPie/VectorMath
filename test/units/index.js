@@ -1,4 +1,5 @@
 module.exports = [
+	require('./VectorMath.add'),
 	require('./VectorMath.angle'),
 	require('./VectorMath.clone'),
 	require('./VectorMath.distance'),
