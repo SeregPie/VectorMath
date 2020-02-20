@@ -32,57 +32,20 @@ The module is globally available as `VectorMath`.
 
 ## members
 
-`.angle(vector, otherVector)`
+`.mulScalar(vector, scalar)`
 
-Calculates the angle between the two vectors in radians.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
-```javascript
-let n = VectorMath.angle([7, 1], [5, 5]);
-// => ~0.6435
-```
-
----
-
-`.clone(vector)`
-
-Clones a vector.
+Multiplies the vector by the scalar.
 
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
+| `scalar` | A number as the scalar. |
 
-Returns a new array.
-
-```javascript
-let originalVector = [1, 2, 3];
-let vector = VectorMath.clone(originalVector);
-// => [1, 2, 3]
-console.log(vector === originalVector); // => false
-```
-
----
-
-`.distance(vector, otherVector)`
-
-Calculates the distance between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
+Returns a new array as the calculated result.
 
 ```javascript
-let n = VectorMath.distance([2, 3, 4, 2], [1, -2, 1, 3]);
-// => 6
+let vector = VectorMath.mulScalar([3, -1], 2);
+// => [6, -2]
 ```
 
 ---
@@ -123,23 +86,6 @@ let n = VectorMath.dot([1, 3, -5], [4, -2, -1]);
 
 ---
 
-`.length(vector)`
-
-Calculates the length of a vector.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the vector. |
-
-Returns a number as the calculated result.
-
-```javascript
-let vector = VectorMath.length([12, 3, 4]);
-// => 13
-```
-
----
-
 `.mean(vectors)`
 
 Calculates the mean of the multiple vectors.
@@ -157,21 +103,33 @@ let vector = VectorMath.mean([[5, 3], [6, 1], [7, 8]]);
 
 ---
 
-`.mulScalar(vector, scalar)`
+`.length(vector)`
 
-Multiplies the vector by the scalar.
+Calculates the length of a vector.
 
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
-| `scalar` | A number as the scalar. |
 
-Returns a new array as the calculated result.
+Returns a number as the calculated result.
 
 ```javascript
-let vector = VectorMath.mulScalar([3, -1], 2);
-// => [6, -2]
+let vector = VectorMath.length([12, 3, 4]);
+// => 13
 ```
+
+---
+
+`.relength(vector, length)`
+
+Changes the length of the vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `length` | A number as the new length. |
+
+Returns a new array as the calculated result.
 
 ---
 
@@ -192,13 +150,55 @@ let vector = VectorMath.normalize([3, 4]);
 
 ---
 
-`.relength(vector, length)`
+`.distance(vector, otherVector)`
 
-Changes the length of the vector.
+Calculates the distance between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+```javascript
+let n = VectorMath.distance([2, 3, 4, 2], [1, -2, 1, 3]);
+// => 6
+```
+
+---
+
+`.angle(vector, otherVector)`
+
+Calculates the angle between the two vectors in radians.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+```javascript
+let n = VectorMath.angle([7, 1], [5, 5]);
+// => ~0.6435
+```
+
+---
+
+`.clone(vector)`
+
+Clones a vector.
 
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
-| `length` | A number as the new length. |
 
-Returns a new array as the calculated result.
+Returns a new array.
+
+```javascript
+let originalVector = [1, 2, 3];
+let vector = VectorMath.clone(originalVector);
+// => [1, 2, 3]
+console.log(vector === originalVector); // => false
+```
