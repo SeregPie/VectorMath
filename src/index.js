@@ -9,6 +9,7 @@ import mean from './mean';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
 import relength from './relength';
+import sub from './sub';
 
 export default {
 	add,
@@ -22,4 +23,5 @@ export default {
 	mulScalar,
 	normalize,
 	relength,
+	sub,
 };

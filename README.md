@@ -50,6 +50,24 @@ let vector = VectorMath.add([1, 3, -1], [-2, 1, 6]);
 
 ---
 
+`.sub(vector, otherVector)`
+
+Subtracts the second vector from the first vector.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a new array as the calculated result.
+
+```javascript
+let vector = VectorMath.add([-1, 3, 2], [2, 4, -5]);
+// => [-3, -1, 7]
+```
+
+---
+
 `.mulScalar(vector, scalar)`
 
 Multiplies the vector by the scalar.
