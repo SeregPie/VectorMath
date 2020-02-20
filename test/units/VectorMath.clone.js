@@ -3,8 +3,8 @@ let assert = require('assert').strict;
 let VectorMath = require('../../index');
 
 module.exports = function() {
-	let originalVector = [1, 2, 3];
-	let vector = VectorMath.clone(originalVector);
-	assert.notEqual(vector, originalVector);
-	assert.deepEqual(vector, originalVector);
+	let vector = [1, 2, 3];
+	let otherVector = VectorMath.clone(vector);
+	assert.notEqual(otherVector, vector);
+	assert.deepEqual(otherVector, vector);
 };

@@ -3,6 +3,12 @@ let assert = require('assert').strict;
 let VectorMath = require('../../index');
 
 module.exports = function() {
-	assert.equal(VectorMath.dot([1, 3, -5], [4, -2, -1]), 3);
-	assert.equal(VectorMath.dot([1, 2, 3], [0, 0, 0]), 0);
+	let x0 = 1 + Math.random();
+	let y0 = 1 + Math.random();
+	let x1 = 1 + Math.random();
+	let y1 = 1 + Math.random();
+	assert.equal(
+		VectorMath.dot([x0, y0], [x1, y1]),
+		x0 * x1 + y0 * y1,
+	);
 };

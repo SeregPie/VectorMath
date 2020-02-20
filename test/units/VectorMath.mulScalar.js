@@ -3,5 +3,11 @@ let assert = require('assert').strict;
 let VectorMath = require('../../index');
 
 module.exports = function() {
-	assert.deepEqual(VectorMath.mulScalar([1, -2, 3, -4], 2), [2, -4, 6, -8]);
+	let x = 1 + Math.random();
+	let y = 1 + Math.random();
+	let s = 1 + Math.random();
+	assert.deepEqual(
+		VectorMath.mulScalar([x, y], s),
+		[x * s, y * s],
+	);
 };
