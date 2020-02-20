@@ -16,4 +16,5 @@ module.exports = [
 	require('./VectorMath.relength'),
 	require('./VectorMath.sub'),
 	require('./VectorMath.subScalar'),
+	require('./VectorMath.sum'),
 ];

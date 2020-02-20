@@ -161,6 +161,18 @@ Returns a number as the calculated result.
 
 ---
 
+`.sum(...vectors)`
+
+Calculates the sum of the multiple vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vectors` | Multiple arrays as vectors. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.mean(vectors)`
 
 Calculates the mean of the multiple vectors.

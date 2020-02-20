@@ -15,6 +15,7 @@ import normalize from './normalize';
 import relength from './relength';
 import sub from './sub';
 import subScalar from './subScalar';
+import sum from './sum';
 
 export default {
 	abs,
@@ -34,4 +35,5 @@ export default {
 	relength,
 	sub,
 	subScalar,
+	sum,
 };
