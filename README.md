@@ -50,23 +50,6 @@ let n = VectorMath.angle([7, 1], [5, 5]);
 
 ---
 
-`.centroid(vectors)`
-
-Calculates the centroid of the multiple vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vectors` | An iterable of arrays as vectors. |
-
-Returns a new array as the calculated result.
-
-```javascript
-let vector = VectorMath.centroid([[5, 3], [6, 1], [7, 8]]);
-// => [6, 4]
-```
-
----
-
 `.clone(vector)`
 
 Clones a vector.
@@ -104,7 +87,7 @@ let n = VectorMath.distance([2, 3, 4, 2], [1, -2, 1, 3]);
 
 ---
 
-`.divideScalar(vector, scalar)`
+`.divScalar(vector, scalar)`
 
 Divides the vector by the scalar.
 
@@ -116,7 +99,7 @@ Divides the vector by the scalar.
 Returns a new array as the calculated result.
 
 ```javascript
-let vector = VectorMath.divideScalar([8, -2], 2);
+let vector = VectorMath.divScalar([8, -2], 2);
 // => [4, -1]
 ```
 
@@ -157,7 +140,24 @@ let vector = VectorMath.length([12, 3, 4]);
 
 ---
 
-`.multiplyScalar(vector, scalar)`
+`.mean(vectors)`
+
+Calculates the mean of the multiple vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vectors` | An iterable of arrays as vectors. |
+
+Returns a new array as the calculated result.
+
+```javascript
+let vector = VectorMath.mean([[5, 3], [6, 1], [7, 8]]);
+// => [6, 4]
+```
+
+---
+
+`.mulScalar(vector, scalar)`
 
 Multiplies the vector by the scalar.
 
@@ -169,7 +169,7 @@ Multiplies the vector by the scalar.
 Returns a new array as the calculated result.
 
 ```javascript
-let vector = VectorMath.multiplyScalar([3, -1], 2);
+let vector = VectorMath.mulScalar([3, -1], 2);
 // => [6, -2]
 ```
 

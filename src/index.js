@@ -1,23 +1,23 @@
 import angle from './angle';
-import centroid from './centroid';
 import clone from './clone';
 import distance from './distance';
-import divideScalar from './divideScalar';
+import divScalar from './divScalar';
 import dot from './dot';
 import length from './length';
-import multiplyScalar from './multiplyScalar';
+import mean from './mean';
+import mulScalar from './mulScalar';
 import normalize from './normalize';
 import relength from './relength';
 
 export default {
 	angle,
-	centroid,
 	clone,
 	distance,
-	divideScalar,
+	divScalar,
 	dot,
 	length,
-	multiplyScalar,
+	mean,
+	mulScalar,
 	normalize,
 	relength,
 };
