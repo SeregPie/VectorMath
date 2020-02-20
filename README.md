@@ -136,6 +136,18 @@ Returns a new array as the calculated result.
 
 ---
 
+`.abs(vector)`
+
+Makes the components of the vector absolute.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.dot(vector, otherVector)`
 
 Calculates the dot product of the two vectors.

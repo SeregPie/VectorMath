@@ -1,3 +1,4 @@
+import abs from './abs';
 import add from './add';
 import addScalar from './addScalar';
 import angle from './angle';
@@ -16,6 +17,7 @@ import sub from './sub';
 import subScalar from './subScalar';
 
 export default {
+	abs,
 	add,
 	addScalar,
 	angle,

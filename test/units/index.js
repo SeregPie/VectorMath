@@ -1,4 +1,5 @@
 module.exports = [
+	require('./VectorMath.abs'),
 	require('./VectorMath.add'),
 	require('./VectorMath.addScalar'),
 	require('./VectorMath.angle'),
