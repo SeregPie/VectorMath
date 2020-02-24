@@ -33,8 +33,7 @@
 	"repository": "github:SeregPie/VectorMath",
 	"scripts": {
 		"build": "rollup -c",
-		"prepublishOnly": "npm run build",
-		"test": "node test/index"
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@rollup/plugin-buble": "^0.21.1",
