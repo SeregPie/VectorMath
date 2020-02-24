@@ -1,6 +1,5 @@
-import divScalar from './divScalar';
-import sum from './sum';
+import Math_mean from './core/Math/mean';
 
 export default function(...vectors) {
-	return divScalar(sum(...vectors), vectors.length);
+	return vectors[0].map((n, i) => Math_mean(...vectors.map(vector => vector[i])));
 }

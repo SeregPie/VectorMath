@@ -1,3 +1,5 @@
-export default function(vector, ...otherVectors) {
-	return vector.map((n, i) => otherVectors.reduce((n, otherVector) => n + otherVector[i], n));
+import Math_sum from './core/Math/sum';
+
+export default function(...vectors) {
+	return vectors[0].map((n, i) => Math_sum(...vectors.map(vector => vector[i])));
 }
