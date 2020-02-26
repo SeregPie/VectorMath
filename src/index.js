@@ -3,6 +3,7 @@ import add from './add';
 import addScalar from './addScalar';
 import angle from './angle';
 import clone from './clone';
+import covariance from './covariance';
 import distance from './distance';
 import div from './div';
 import divScalar from './divScalar';
@@ -12,6 +13,7 @@ import mean from './mean';
 import mul from './mul';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
+import pearsonCorrelationCoefficient from './pearsonCorrelationCoefficient';
 import relength from './relength';
 import sub from './sub';
 import subScalar from './subScalar';
@@ -23,6 +25,7 @@ export default {
 	addScalar,
 	angle,
 	clone,
+	covariance,
 	distance,
 	div,
 	divScalar,
@@ -32,6 +35,7 @@ export default {
 	mul,
 	mulScalar,
 	normalize,
+	pearsonCorrelationCoefficient,
 	relength,
 	sub,
 	subScalar,

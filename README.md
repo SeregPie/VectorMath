@@ -257,3 +257,29 @@ Clones a vector.
 | `vector` | An array as the vector. |
 
 Returns a new array.
+
+---
+
+`.covariance(vector, otherVector)`
+
+Calculates covariance between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
+`.pearsonCorrelationCoefficient(vector, otherVector)`
+
+Calculates Pearson correlation coefficient between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
