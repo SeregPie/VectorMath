@@ -167,7 +167,7 @@ Calculates the sum of the multiple vectors.
 
 | argument | description |
 | ---: | :--- |
-| `vectors` | Multiple arrays as vectors. |
+| `...` | An array as the vector. |
 
 Returns a new array as the calculated result.
 
@@ -179,7 +179,7 @@ Calculates the mean of the multiple vectors.
 
 | argument | description |
 | ---: | :--- |
-| `vectors` | Multiple arrays as vectors. |
+| `...` | An array as the vector. |
 
 Returns a new array as the calculated result.
 
@@ -191,7 +191,7 @@ Calculates the length of a vector.
 
 | argument | description |
 | ---: | :--- |
-| `vector` | An array as the vector. |
+| `...` | An array as the vector. |
 
 Returns a number as the calculated result.
 
