@@ -44,6 +44,8 @@
 	},
 	"devDependencies": {
 		"@rollup/plugin-buble": "^0.21.3",
+		"eslint": "^7.5.0",
+		"eslint-config-seregpie": "^1.0.1",
 		"rollup": "^2.23.0",
 		"rollup-plugin-terser": "^6.1.0"
 	}
