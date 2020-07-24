@@ -2,22 +2,23 @@ import abs from './abs';
 import add from './add';
 import addScalar from './addScalar';
 import angle from './angle';
-import angularDistance from './angularDistance';
-import angularSimilarity from './angularSimilarity';
+import AngularDistance from './AngularDistance';
+import AngularSimilarity from './AngularSimilarity';
 import clone from './clone';
-import cosineDistance from './cosineDistance';
-import cosineSimilarity from './cosineSimilarity';
-import covariance from './covariance';
+import CosineDistance from './CosineDistance';
+import CosineSimilarity from './CosineSimilarity';
+import Covariance from './Covariance';
 import distance from './distance';
 import div from './div';
 import divScalar from './divScalar';
 import dot from './dot';
+import EuclideanDistance from './EuclideanDistance';
 import length from './length';
 import mean from './mean';
 import mul from './mul';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
-import pearsonCorrelationCoefficient from './pearsonCorrelationCoefficient';
+import PearsonCorrelationCoefficient from './PearsonCorrelationCoefficient';
 import relength from './relength';
 import sub from './sub';
 import subScalar from './subScalar';
@@ -28,22 +29,23 @@ export default {
 	add,
 	addScalar,
 	angle,
-	angularDistance,
-	angularSimilarity,
+	AngularDistance,
+	AngularSimilarity,
 	clone,
-	cosineDistance,
-	cosineSimilarity,
-	covariance,
+	CosineDistance,
+	CosineSimilarity,
+	Covariance,
 	distance,
 	div,
 	divScalar,
 	dot,
+	EuclideanDistance,
 	length,
 	mean,
 	mul,
 	mulScalar,
 	normalize,
-	pearsonCorrelationCoefficient,
+	PearsonCorrelationCoefficient,
 	relength,
 	sub,
 	subScalar,

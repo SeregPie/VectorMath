@@ -1,5 +1,5 @@
-import cosineSimilarity from './cosineSimilarity';
+import CosineSimilarity from './CosineSimilarity';
 
 export default function(...args) {
-	return 1 - cosineSimilarity(...args);
+	return 1 - CosineSimilarity(...args);
 }

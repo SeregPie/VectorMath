@@ -1,5 +1,5 @@
-import angularDistance from './angularDistance';
+import AngularDistance from './AngularDistance';
 
 export default function(...args) {
-	return 1 - angularDistance(...args);
+	return 1 - AngularDistance(...args);
 }

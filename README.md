@@ -224,6 +224,8 @@ Returns a new array as the calculated result.
 
 `.distance(vector, otherVector)`
 
+*alias* `EuclideanDistance`
+
 Calculates the euclidean distance between the two vectors.
 
 | argument | description |
@@ -260,9 +262,9 @@ Returns a new array.
 
 ---
 
-`.covariance(vector, otherVector)`
+`.Covariance(vector, otherVector)`
 
-Calculates covariance between the two vectors.
+Calculates Covariance between the two vectors.
 
 | argument | description |
 | ---: | :--- |
@@ -273,7 +275,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.cosineSimilarity(vector, otherVector)`
+`.CosineSimilarity(vector, otherVector)`
 
 Calculates cosine similarity between the two vectors.
 
@@ -286,7 +288,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.cosineSimilarity(vector, otherVector)`
+`.CosineSimilarity(vector, otherVector)`
 
 Calculates cosine similarity between the two vectors.
 
@@ -299,7 +301,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.cosineDistance(vector, otherVector)`
+`.CosineDistance(vector, otherVector)`
 
 Calculates cosine distance between the two vectors.
 
@@ -312,7 +314,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.angularSimilarity(vector, otherVector)`
+`.AngularSimilarity(vector, otherVector)`
 
 Calculates angular similarity between the two vectors.
 
@@ -325,7 +327,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.angularDistance(vector, otherVector)`
+`.AngularDistance(vector, otherVector)`
 
 Calculates angular distance between the two vectors.
 
@@ -338,7 +340,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.pearsonCorrelationCoefficient(vector, otherVector)`
+`.PearsonCorrelationCoefficient(vector, otherVector)`
 
 Calculates Pearson correlation coefficient between the two vectors.
 
