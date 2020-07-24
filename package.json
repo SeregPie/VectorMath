@@ -40,9 +40,12 @@
 	"repository": "github:SeregPie/VectorMath",
 	"scripts": {
 		"build": "rollup -c",
-		"prepublishOnly": "npm run build"
+		"prepublishOnly": "npm run build",
+		"test": "node test/index"
 	},
 	"devDependencies": {
+		"chai": "^4.2.0",
+		"chai-stats": "^0.3.0",
 		"eslint": "^7.5.0",
 		"eslint-config-seregpie": "^1.0.1",
 		"rollup": "^2.23.0",
