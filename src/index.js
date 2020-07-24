@@ -2,7 +2,11 @@ import abs from './abs';
 import add from './add';
 import addScalar from './addScalar';
 import angle from './angle';
+import angularDistance from './angularDistance';
+import angularSimilarity from './angularSimilarity';
 import clone from './clone';
+import cosineDistance from './cosineDistance';
+import cosineSimilarity from './cosineSimilarity';
 import covariance from './covariance';
 import distance from './distance';
 import div from './div';
@@ -24,7 +28,11 @@ export default {
 	add,
 	addScalar,
 	angle,
+	angularDistance,
+	angularSimilarity,
 	clone,
+	cosineDistance,
+	cosineSimilarity,
 	covariance,
 	distance,
 	div,

@@ -273,6 +273,71 @@ Returns a number as the calculated result.
 
 ---
 
+`.cosineSimilarity(vector, otherVector)`
+
+Calculates cosine similarity between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
+`.cosineSimilarity(vector, otherVector)`
+
+Calculates cosine similarity between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
+`.cosineDistance(vector, otherVector)`
+
+Calculates cosine distance between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
+`.angularSimilarity(vector, otherVector)`
+
+Calculates angular similarity between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
+`.angularDistance(vector, otherVector)`
+
+Calculates angular distance between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
 `.pearsonCorrelationCoefficient(vector, otherVector)`
 
 Calculates Pearson correlation coefficient between the two vectors.
