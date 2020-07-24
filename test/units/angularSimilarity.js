@@ -3,5 +3,7 @@ let {assert} = require('chai');
 let VectorMath = require('../../index');
 
 module.exports = function() {
-
+	assert.equal(VectorMath.angularSimilarity([], []), 1/2);
+	assert.equal(VectorMath.angularSimilarity([2, 30, -7, 19], [2, 30, -7, 19]), 1);
+	assert.almostEqual(VectorMath.angularSimilarity([-14, -37, -14, -29], [-36, 78, -18, 44]), 0.261950143);
 };
