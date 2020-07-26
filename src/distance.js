@@ -1,5 +1,6 @@
 import length from './length';
+import sub from './sub';
 
 export default function(vector, otherVector) {
-	return length(vector.map((n, i) => n - otherVector[i]));
+	return length(sub(vector, otherVector));
 }
