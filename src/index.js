@@ -20,7 +20,7 @@ import mul from './mul';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
 import PearsonCorrelationCoefficient from './PearsonCorrelationCoefficient';
-import relength from './relength';
+import setLength from './setLength';
 import sub from './sub';
 import subScalar from './subScalar';
 import sum from './sum';
@@ -48,7 +48,7 @@ export {
 	mulScalar,
 	normalize,
 	PearsonCorrelationCoefficient,
-	relength,
+	setLength,
 	sub,
 	subScalar,
 	sum,

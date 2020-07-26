@@ -24,7 +24,7 @@
 		"norm",
 		"normalize",
 		"pearson",
-		"relength",
+		"setLength",
 		"scalar",
 		"standard",
 		"sub",

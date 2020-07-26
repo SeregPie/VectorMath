@@ -20,7 +20,7 @@ module.exports = [
 	require('./mulScalar'),
 	require('./normalize'),
 	require('./PearsonCorrelationCoefficient'),
-	require('./relength'),
+	require('./setLength'),
 	require('./sub'),
 	require('./subScalar'),
 	require('./sum'),

@@ -197,7 +197,7 @@ Returns a number as the calculated result.
 
 ---
 
-`.relength(vector, length)`
+`.setLength(vector, length)`
 
 Changes the length of the vector.
 

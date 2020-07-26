@@ -1,5 +1,5 @@
-import relength from './relength';
+import setLength from './setLength';
 
 export default function(vector) {
-	return relength(vector, 1);
+	return setLength(vector, 1);
 }
