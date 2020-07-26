@@ -4,6 +4,9 @@ import addScalar from './addScalar';
 import angle from './angle';
 import AngularDistance from './AngularDistance';
 import AngularSimilarity from './AngularSimilarity';
+import clamp from './clamp';
+import clampLength from './clampLength';
+import clampScalar from './clampScalar';
 import clone from './clone';
 import CosineDistance from './CosineDistance';
 import CosineSimilarity from './CosineSimilarity';
@@ -20,6 +23,9 @@ import mul from './mul';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
 import PearsonCorrelationCoefficient from './PearsonCorrelationCoefficient';
+import scale from './scale';
+import scaleLength from './scaleLength';
+import scaleScalar from './scaleScalar';
 import setLength from './setLength';
 import sub from './sub';
 import subScalar from './subScalar';
@@ -32,6 +38,9 @@ export {
 	angle,
 	AngularDistance,
 	AngularSimilarity,
+	clamp,
+	clampLength,
+	clampScalar,
 	clone,
 	CosineDistance,
 	CosineSimilarity,
@@ -48,6 +57,9 @@ export {
 	mulScalar,
 	normalize,
 	PearsonCorrelationCoefficient,
+	scale,
+	scaleLength,
+	scaleScalar,
 	setLength,
 	sub,
 	subScalar,

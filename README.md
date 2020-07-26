@@ -250,6 +250,96 @@ Returns a number as the calculated result.
 
 ---
 
+`.clamp(vector, minVector, maxVector)`
+
+Clamps the vector between the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `minVector` | An array as the minimum vector. |
+| `maxVector` | An array as the maximum vector. |
+
+Returns a new array as the calculated result.
+
+---
+
+`.clampScalar(vector, minScalar, maxScalar)`
+
+Clamps the vector between the two scalars.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `minScalar` | A number as the minimum scalar. |
+| `maxScalar` | A number as the maximum scalar. |
+
+Returns a new array as the calculated result.
+
+---
+
+`.clampLength(vector, minLength, maxLength)`
+
+Clamps the vector between the two lengths.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `minLength` | A number as the minimum length. |
+| `maxLength` | A number as the maximum length. |
+
+Returns a new array as the calculated result.
+
+---
+
+`.scale(vector, oldMinVector, oldMaxVector, newMinVector, newMaxVector)`
+
+Scales the vector from a vector range to another.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `oldMinVector` | An array as the old minimum vector. |
+| `oldMaxVector` | An array as the old maximum vector. |
+| `newMinVector` | An array as the new minimum vector. |
+| `newMaxVector` | An array as the new maximum vector. |
+
+Returns a new array as the calculated result.
+
+---
+
+`.scaleScalar(vector, oldMinScalar, oldMaxScalar, newMinScalar, newMaxScalar)`
+
+Scales the vector from a scalar range to another.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `oldMinScalar` | A number as the old minimum scalar. |
+| `oldMaxScalar` | A number as the old maximum scalar. |
+| `newMinScalar` | A number as the new minimum scalar. |
+| `newMaxScalar` | A number as the new maximum scalar. |
+
+Returns a new array as the calculated result.
+
+---
+
+`.scaleLength(vector, oldMinLength, oldMaxLength, newMinLength, newMaxLength)`
+
+Scales the vector from a length range to another.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the vector. |
+| `oldMinLength` | A number as the old minimum length. |
+| `oldMaxLength` | A number as the old maximum length. |
+| `newMinLength` | A number as the new minimum length. |
+| `newMaxLength` | A number as the new maximum length. |
+
+Returns a new array as the calculated result.
+
+---
+
 `.clone(vector)`
 
 Clones a vector.
