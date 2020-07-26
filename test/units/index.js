@@ -14,6 +14,7 @@ module.exports = [
 	require('./divScalar'),
 	require('./dot'),
 	require('./length'),
+	require('./ManhattanDistance'),
 	require('./mean'),
 	require('./mul'),
 	require('./mulScalar'),

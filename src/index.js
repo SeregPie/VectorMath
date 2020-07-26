@@ -14,6 +14,7 @@ import divScalar from './divScalar';
 import dot from './dot';
 import EuclideanDistance from './EuclideanDistance';
 import length from './length';
+import ManhattanDistance from './ManhattanDistance';
 import mean from './mean';
 import mul from './mul';
 import mulScalar from './mulScalar';
@@ -41,6 +42,7 @@ export {
 	dot,
 	EuclideanDistance,
 	length,
+	ManhattanDistance,
 	mean,
 	mul,
 	mulScalar,

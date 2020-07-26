@@ -264,89 +264,14 @@ Returns a new array.
 
 `.Covariance(vector, otherVector)`
 
-Calculates Covariance between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
+`.ManhattanDistance(vector, otherVector)`
 
 `.CosineSimilarity(vector, otherVector)`
-
-Calculates cosine similarity between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
-
-`.CosineSimilarity(vector, otherVector)`
-
-Calculates cosine similarity between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
 
 `.CosineDistance(vector, otherVector)`
 
-Calculates cosine distance between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
-
 `.AngularSimilarity(vector, otherVector)`
-
-Calculates angular similarity between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
 
 `.AngularDistance(vector, otherVector)`
 
-Calculates angular distance between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
-
----
-
 `.PearsonCorrelationCoefficient(vector, otherVector)`
-
-Calculates Pearson correlation coefficient between the two vectors.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
-
-Returns a number as the calculated result.
