@@ -31,7 +31,7 @@ import sub from './sub';
 import subScalar from './subScalar';
 import sum from './sum';
 
-export {
+export default {
 	abs,
 	add,
 	addScalar,
