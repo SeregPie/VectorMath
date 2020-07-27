@@ -30,6 +30,7 @@ import setLength from './setLength';
 import sub from './sub';
 import subScalar from './subScalar';
 import sum from './sum';
+import VelocityMean from './VelocityMean';
 
 export default {
 	abs,
@@ -64,4 +65,5 @@ export default {
 	sub,
 	subScalar,
 	sum,
+	VelocityMean,
 };
