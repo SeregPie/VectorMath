@@ -44,6 +44,9 @@
 		"test": "node test/index"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.11.0",
+		"@babel/preset-env": "^7.11.0",
+		"@rollup/plugin-babel": "^5.1.0",
 		"chai": "^4.2.0",
 		"chai-stats": "^0.3.0",
 		"eslint": "^7.6.0",
