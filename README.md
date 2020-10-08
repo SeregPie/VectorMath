@@ -52,7 +52,7 @@ Adds the scalar to the vector.
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
-| `otherVector` | A number as the scalar. |
+| `scalar` | A number as the scalar. |
 
 Returns a new array as the calculated result.
 
@@ -78,7 +78,7 @@ Subtracts the scalar from the vector.
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
-| `otherVector` | A number as the scalar. |
+| `scalar` | A number as the scalar. |
 
 Returns a new array as the calculated result.
 
@@ -130,7 +130,7 @@ Divides the vector by the scalar.
 | argument | description |
 | ---: | :--- |
 | `vector` | An array as the vector. |
-| `otherVector` | A number as the scalar. |
+| `scalar` | A number as the scalar. |
 
 Returns a new array as the calculated result.
 
