@@ -1,4 +1,4 @@
-import Math_scale from './core/Math/scale';
+import Math_scale from './@core/Math/scale';
 
 import length from './length';
 import setLength from './setLength';

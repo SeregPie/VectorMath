@@ -1,4 +1,4 @@
-import Math_sum from './core/Math/sum';
+import Math_sum from './@core/Math/sum';
 
 import abs from './abs';
 import sub from './sub';

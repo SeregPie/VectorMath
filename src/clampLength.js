@@ -1,4 +1,4 @@
-import Math_clamp from './core/Math/clamp';
+import Math_clamp from './@core/Math/clamp';
 
 import length from './length';
 import setLength from './setLength';

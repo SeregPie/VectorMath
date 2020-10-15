@@ -1,6 +1,6 @@
 let {assert} = require('chai');
 
-let VectorMath = require('../../index');
+let VectorMath = require('../../');
 
 module.exports = function() {
 	assert.deepEqual(VectorMath.normalize([]), []);

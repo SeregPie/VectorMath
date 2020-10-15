@@ -1,6 +1,6 @@
-import Math_clamp from './core/Math/clamp';
-import Math_standardDeviation from './core/Math/standardDeviation';
-import Number_isAlmostEqual from './core/Number/isAlmostEqual';
+import Math_clamp from './@core/Math/clamp';
+import Math_standardDeviation from './@core/Math/standardDeviation';
+import Number_isAlmostEqual from './@core/Number/isAlmostEqual';
 
 import Covariance from './Covariance';
 

@@ -1,4 +1,4 @@
-import Math_mean from './core/Math/mean';
+import Math_mean from './@core/Math/mean';
 
 import mul from './mul';
 
