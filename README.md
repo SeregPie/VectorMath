@@ -10,13 +10,17 @@ A collection of mathematical functions for working with vectors.
 npm i @seregpie/vector-math
 ```
 
-### ES module
+---
+
+Import inside an ES module.
 
 ```javascript
 import VectorMath from '@seregpie/vector-math';
 ```
 
-### Node
+*or*
+
+Import inside a CommonJS module.
 
 ```javascript
 let VectorMath = require('@seregpie/vector-math');
