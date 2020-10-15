@@ -140,6 +140,19 @@ Returns a new array as the calculated result.
 
 ---
 
+`.dot(vector, otherVector)`
+
+Calculates the dot product of the two vectors.
+
+| argument | description |
+| ---: | :--- |
+| `vector` | An array as the first vector. |
+| `otherVector` | An array as the second vector. |
+
+Returns a number as the calculated result.
+
+---
+
 `.abs(vector)`
 
 Makes the components of the vector absolute.
@@ -152,16 +165,27 @@ Returns a new array as the calculated result.
 
 ---
 
-`.dot(vector, otherVector)`
+`.min(...vectors)`
 
-Calculates the dot product of the two vectors.
+Calculates the min of the multiple vectors.
 
 | argument | description |
 | ---: | :--- |
-| `vector` | An array as the first vector. |
-| `otherVector` | An array as the second vector. |
+| `...vectors` | Multiple arguments where each argument is an array as the vector. |
 
-Returns a number as the calculated result.
+Returns a new array as the calculated result.
+
+---
+
+`.max(...vectors)`
+
+Calculates the max of the multiple vectors.
+
+| argument | description |
+| ---: | :--- |
+| `...vectors` | Multiple arguments where each argument is an array as the vector. |
+
+Returns a new array as the calculated result.
 
 ---
 

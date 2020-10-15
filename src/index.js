@@ -18,7 +18,9 @@ import dot from './dot';
 import EuclideanDistance from './EuclideanDistance';
 import length from './length';
 import ManhattanDistance from './ManhattanDistance';
+import max from './max';
 import mean from './mean';
+import min from './min';
 import mul from './mul';
 import mulScalar from './mulScalar';
 import normalize from './normalize';
@@ -52,7 +54,9 @@ export default {
 	EuclideanDistance,
 	length,
 	ManhattanDistance,
+	max,
 	mean,
+	min,
 	mul,
 	mulScalar,
 	normalize,
