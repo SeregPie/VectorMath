@@ -393,3 +393,5 @@ Returns a new array.
 `.AngularDistance(vector, otherVector)`
 
 `.PearsonCorrelationCoefficient(vector, otherVector)`
+
+`.DirectionalMean(...vectors)`

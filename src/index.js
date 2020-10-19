@@ -11,6 +11,7 @@ import clone from './clone';
 import CosineDistance from './CosineDistance';
 import CosineSimilarity from './CosineSimilarity';
 import Covariance from './Covariance';
+import DirectionalMean from './DirectionalMean';
 import distance from './distance';
 import div from './div';
 import divScalar from './divScalar';
@@ -47,6 +48,7 @@ export default {
 	CosineDistance,
 	CosineSimilarity,
 	Covariance,
+	DirectionalMean,
 	distance,
 	div,
 	divScalar,

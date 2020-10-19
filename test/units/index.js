@@ -12,6 +12,7 @@ module.exports = [
 	require('./CosineDistance'),
 	require('./CosineSimilarity'),
 	require('./Covariance'),
+	require('./DirectionalMean'),
 	require('./distance'),
 	require('./div'),
 	require('./divScalar'),
