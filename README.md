@@ -336,7 +336,7 @@ Returns a new array as the calculated result.
 
 ---
 
-`.scaleScalar(vector, oldMinScalar, oldMaxScalar, newMinScalar, newMaxScalar)`
+`.scaleScalar(array: vector, oldMinScalar, oldMaxScalar, newMinScalar, newMaxScalar)`
 
 Scales the vector from a scalar range to another.
 
@@ -365,18 +365,6 @@ Scales the vector from a length range to another.
 | `newMaxLength` | A number as the new maximum length. |
 
 Returns a new array as the calculated result.
-
----
-
-`.clone(vector)`
-
-Clones a vector.
-
-| argument | description |
-| ---: | :--- |
-| `vector` | An array as the vector. |
-
-Returns a new array.
 
 ---
 

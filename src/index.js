@@ -7,7 +7,6 @@ import AngularSimilarity from './AngularSimilarity';
 import clamp from './clamp';
 import clampLength from './clampLength';
 import clampScalar from './clampScalar';
-import clone from './clone';
 import CosineDistance from './CosineDistance';
 import CosineSimilarity from './CosineSimilarity';
 import Covariance from './Covariance';
@@ -44,7 +43,6 @@ export default {
 	clamp,
 	clampLength,
 	clampScalar,
-	clone,
 	CosineDistance,
 	CosineSimilarity,
 	Covariance,

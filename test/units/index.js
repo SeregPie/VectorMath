@@ -8,7 +8,6 @@ module.exports = [
 	require('./clamp'),
 	require('./clampLength'),
 	require('./clampScalar'),
-	require('./clone'),
 	require('./CosineDistance'),
 	require('./CosineSimilarity'),
 	require('./Covariance'),
