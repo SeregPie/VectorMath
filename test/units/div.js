@@ -4,5 +4,5 @@ let VectorMath = require('../../');
 
 module.exports = function() {
 	assert.deepAlmostEqual(VectorMath.div([], []), []);
-	assert.deepAlmostEqual(VectorMath.div([-52, 44, -69, -88], [-18, 69, 31, -75]), [2.888888889, 0.637681159, -2.225806452,  1.173333333]);
+	assert.deepAlmostEqual(VectorMath.div([-52, 44, -69, -88], [-18, 69, 31, -75]), [2.88888889, 0.63768116, -2.22580645,  1.17333333]);
 };

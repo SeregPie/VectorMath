@@ -5,5 +5,5 @@ let VectorMath = require('../../');
 module.exports = function() {
 	assert.deepAlmostEqual(VectorMath.normalize([]), []);
 	assert.deepAlmostEqual(VectorMath.normalize([0, 0, 0, 0]), [0, 0, 0, 0]);
-	assert.deepAlmostEqual(VectorMath.normalize([93, -69, -45, 86]), [0.615489263, -0.456653324, -0.297817386, 0.569162115]);
+	assert.deepAlmostEqual(VectorMath.normalize([93, -69, -45, 86]), [0.61548926, -0.45665332, -0.29781739, 0.56916212]);
 };
