@@ -10,6 +10,7 @@ import clampScalar from './clampScalar';
 import CosineDistance from './CosineDistance';
 import CosineSimilarity from './CosineSimilarity';
 import Covariance from './Covariance';
+import DirectionalDistance from './DirectionalDistance';
 import DirectionalMean from './DirectionalMean';
 import distance from './distance';
 import div from './div';
@@ -46,6 +47,7 @@ export default {
 	CosineDistance,
 	CosineSimilarity,
 	Covariance,
+	DirectionalDistance,
 	DirectionalMean,
 	distance,
 	div,

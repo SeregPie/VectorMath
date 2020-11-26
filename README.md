@@ -368,18 +368,20 @@ Returns a new array as the calculated result.
 
 ---
 
-`.Covariance(vector, otherVector)`
-
-`.ManhattanDistance(vector, otherVector)`
-
-`.CosineSimilarity(vector, otherVector)`
-
-`.CosineDistance(vector, otherVector)`
+`.AngularDistance(vector, otherVector)`
 
 `.AngularSimilarity(vector, otherVector)`
 
-`.AngularDistance(vector, otherVector)`
+`.CosineDistance(vector, otherVector)`
 
-`.PearsonCorrelationCoefficient(vector, otherVector)`
+`.CosineSimilarity(vector, otherVector)`
+
+`.Covariance(vector, otherVector)`
+
+`.DirectionalDistance(vector, otherVector)`
 
 `.DirectionalMean(...vectors)`
+
+`.ManhattanDistance(vector, otherVector)`
+
+`.PearsonCorrelationCoefficient(vector, otherVector)`
